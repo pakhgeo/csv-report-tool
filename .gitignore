@@ -1,0 +1,24 @@
+# Каталог с виртуальными окружениями и кэшем
+.venv/
+venv/
+env/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Кэш pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Результаты работы — не коммитим
+output/
+*.xlsx
+
+# Редакторы и ОС
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
